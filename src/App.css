@@ -1,38 +1,110 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: hsl(217, 54%, 11%);
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  display: flex;
+  flex-direction: column;
+  background:hsl(216, 50%, 16%);
+  width: 20rem;
+  border-radius: 1rem;
+  justify-content: center;
+  padding: 1.25rem;
+  box-shadow: -1px 10px 5px 9px rgba(12,22,41,1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card img {
+  max-width: 100%;
+  border-radius: .5rem;
+
+}
+
+/*Profile section styling*/
+
+.creator_detail {
+  height:2rem ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  border-top: thin solid #87aad6;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.creator_detail a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.creator_detail img {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.data_and_remaining_time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.eth_val  {
+  color: #2aedf0;
+  display: flex;
+  align-items: center;
+}
+
+.eth_val span{
+  color: #2aedf0;
+  font-size: .8rem;
+}
+
+.eth_val svg {
+  margin-right: .3rem;
+}
+
+.days_left {
+  display: flex;
+  align-items: center;
+  color: #87aad6 ;
+}
+
+.days_left svg {
+  margin-right: .3rem;
+}
+
+/* overlay style */
+
+.imageContainer {
+  position: relative;
+}
+.image_overlay {
+  background: rgba(42, 237, 240, 0.70);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* opacity: 70%; */
+  border-radius: .5rem;
+  height:99%;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay_hide {
+  display: none;
+}
+
+.image_overlay svg{
+  cursor: pointer;
 }
