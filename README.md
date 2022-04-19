@@ -10,12 +10,13 @@ Thanks for checking out this repository.
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
 ### Screenshot
-![](https://i.postimg.cc/RhD6KZjg/Screenshot-2022-04-19-at-01-52-36-QR-code-component.png)
+![](https://i.postimg.cc/nLWZkbMR/Screenshot-2022-04-19-at-10-28-41-React-App.png)
+![](https://i.postimg.cc/8P5rfFzS/Screenshot-2022-04-19-at-15-08-28-NFT-preview-card-component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jd536/qr_code_component)
-- Live Site URL: [Add live site URL here](https://qr-code-component-jd536.vercel.app/)
+- Solution URL: [Add solution URL here](https://github.com/Jd536/nft_preview_card_component)
+- Live Site URL: [Add live site URL here](https://nft-preview-card-component-epnye2yrj-jd536.vercel.app/)
 
 
 ### Built with
@@ -23,6 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- [react-spring](https://react-spring.io)
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
